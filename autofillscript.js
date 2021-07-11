@@ -4,7 +4,6 @@ var dialog = "notification";    // notification, cookie
 
 createLoginForm();
 
-
 window.setTimeout(function(){
     hideLoginForm();
 
@@ -15,7 +14,6 @@ window.setTimeout(function(){
         addDialogEvents();
     }
 }, 1500);
-
 
 function createLoginForm() {
 	var divlogin = document.createElement("div");
@@ -81,7 +79,6 @@ function showDialog() {
     if (scrolling == "no") {
         document.getElementsByTagName("body")[0].classList.add("no-scroll");
     }
-
 }
 
 function addDialogEvents() {
@@ -119,7 +116,6 @@ function addDialogEvents() {
              hideDialog();
         }
     });
-
 }
 
 function hideDialog() {
