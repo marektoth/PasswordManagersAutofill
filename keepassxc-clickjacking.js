@@ -142,6 +142,7 @@ function hideOverlay() {
 
 
 // Clickjacking
+// The code was inspired from https://www.soom.cz/clanky/586--Clickjacking-2 by Roman Kümmel (.cCuMiNn.) 
 var tempX = 0;
 var tempY = 0;
 
